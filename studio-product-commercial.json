@@ -6,11 +6,19 @@
   "camera": "Precise controlled orbit, macro detail or smooth studio dolly that reveals product features.",
   "lighting": "Softbox reflections, refined rim lights and controlled studio contrast.",
   "motion": "Slow precise movement; preserve product dimensions, parts and details.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Exact same product shape, color, materials and branding in every scene image.",
+  "negative_guidance": "Warped product geometry, changed colors or parts, cluttered background, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 30
+  },
+  "video": {
+    "typography": "Premium thin or condensed sans-serif; large product name, small spec labels",
+    "palette": "Dark or seamless studio backdrop with one brand accent",
+    "transitions": "Smooth push-ins, light sweeps, slow cross-dissolves",
+    "text_animation": "Spec callouts draw in with thin lines; headline fades up",
+    "pacing": "Measured and confident, building to a hero shot",
+    "voice_tone": "Polished, confident brand voice",
+    "sound": "Sleek whooshes, soft bass impacts on reveals, subtle shimmer"
   }
 }

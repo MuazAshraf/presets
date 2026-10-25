@@ -6,11 +6,19 @@
   "camera": "Smooth virtual orbit, macro fly-through or accurate technical camera movement.",
   "lighting": "Physically based studio or environment illumination.",
   "motion": "Accurate rigid body, fluid or mechanical motion; keep all components coherent.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same object geometry, materials and environment in every render.",
+  "negative_guidance": "Wrong scale, broken geometry, noisy or plasticky renders, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 30
+  },
+  "video": {
+    "typography": "Precise technical sans-serif with thin spec labels",
+    "palette": "Cool neutral studio tones with metallic highlights",
+    "transitions": "Smooth orbits, exploded-view transitions, macro push-ins",
+    "text_animation": "Spec labels with leader lines; numbers count up",
+    "pacing": "Smooth and deliberate",
+    "voice_tone": "Precise, authoritative presenter",
+    "sound": "Mechanical clicks, sleek whooshes, deep impacts"
   }
 }

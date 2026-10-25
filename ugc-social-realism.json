@@ -6,11 +6,19 @@
   "camera": "Handheld phone perspective at eye level with subtle natural shake.",
   "lighting": "Window light or believable everyday practical lighting.",
   "motion": "Casual real-time gestures and natural conversation-like movement.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same creator, outfit and room across all scenes.",
+  "negative_guidance": "Polished studio look, perfect skin, staged framing, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
-    "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "aspect_ratio": "9:16",
+    "duration_seconds": 30
+  },
+  "video": {
+    "typography": "Bold social-style captions, rounded sans-serif",
+    "palette": "Natural phone colors with bright caption highlights",
+    "transitions": "Jump cuts and quick zooms",
+    "text_animation": "Word-by-word captions, emoji-style pop-ins",
+    "pacing": "Fast hook in the first second, quick cuts",
+    "voice_tone": "Casual, authentic creator talking to camera",
+    "sound": "Pops, swipes and quick whooshes"
   }
 }

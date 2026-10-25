@@ -6,11 +6,19 @@
   "camera": "Controlled 2D pans, zooms and parallax; clear compositions.",
   "lighting": "Consistent illustrated shadow language and controlled palette.",
   "motion": "Strong readable key poses, expressive timing and consistent character model sheets.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same character model sheets, line weight and palette in every scene.",
+  "negative_guidance": "Inconsistent line work, 3D shading, off-model characters, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 45
+  },
+  "video": {
+    "typography": "Hand-lettered or rounded display type",
+    "palette": "Flat, limited palette with clear contrast",
+    "transitions": "Paper wipes, slide-ins, quick cuts",
+    "text_animation": "Hand-drawn style write-ons and wiggle accents",
+    "pacing": "Snappy and expressive",
+    "voice_tone": "Warm, expressive narrator",
+    "sound": "Pops, swishes and light cartoon accents"
   }
 }

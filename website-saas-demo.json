@@ -1,0 +1,25 @@
+{
+  "id": "website-saas-demo",
+  "name": "Website / SaaS Demo",
+  "category": "Product & Advertising",
+  "visual_style": "Clean product-demo look built around the real website or app UI: crisp screens, device frames and brand-accurate colors.",
+  "camera": "Smooth zooms and pans across UI regions, focused on one feature at a time.",
+  "lighting": "Clean, even screen-friendly lighting with soft shadows under device frames.",
+  "motion": "Cursor-led interactions, purposeful UI reveals and smooth screen-to-screen moves.",
+  "consistency": "Same product UI, brand colors and fonts as the captured website in every scene.",
+  "negative_guidance": "Any UI, dashboards, readable screens, documents, words, letters, logos or brand names (the real UI comes from the website screenshots).",
+  "video": {
+    "typography": "The product's own brand fonts (from the captured site); clean sans-serif fallback",
+    "palette": "The product's brand colors on a clean light or dark UI background",
+    "transitions": "Smooth zoom into UI regions, slides between screens, cursor-led moves",
+    "text_animation": "Feature callouts, highlight boxes, cursor clicks and typing",
+    "pacing": "Clear feature-by-feature walkthrough",
+    "voice_tone": "Clear, friendly product presenter",
+    "sound": "Soft clicks on cursor actions, typing for inputs, light whooshes between screens"
+  },
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 60
+  },
+  "image_style": "Clean, text-free visuals in the brand's colors: abstract gradients and soft 3D shapes, people working with screens turned away or softly blurred, devices with blank glowing screens, workplace and lifestyle moments."
+}

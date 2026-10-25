@@ -6,11 +6,19 @@
   "camera": "Dynamic lateral tracking and purposeful high-frame-rate slow motion where appropriate.",
   "lighting": "Contrasty yet plausible sports or outdoor lighting.",
   "motion": "Biomechanically accurate athletic action, clear momentum, real weight transfer and impacts.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same athlete, kit and venue across all scenes.",
+  "negative_guidance": "Wrong anatomy, frozen or impossible poses, motion smear, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 30
+  },
+  "video": {
+    "typography": "Heavy italic condensed sans-serif, scoreboard-style numbers",
+    "palette": "High-contrast darks with an energetic accent",
+    "transitions": "Whip pans, flash cuts, speed ramps",
+    "text_animation": "Slam-in stats and numbers, fast slides",
+    "pacing": "High energy, building intensity",
+    "voice_tone": "Hyped, energetic announcer",
+    "sound": "Punchy impacts, risers and fast whooshes"
   }
 }

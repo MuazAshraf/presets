@@ -1,0 +1,30 @@
+{
+  "id": "mojo-print",
+  "name": "Mojo Print (Orb & Pants)",
+  "category": "Brand",
+  "visual_style": "Mojo's own look: 70s screen print made Mojo. Warm off-white paper with grain and fibres, navy-black ink, the logo's light blue and navy. A halftone dot orb that turns in 3D and reacts (speaks, listens, thinks, lands), the Mojo pants as a flat-drawn character, felt-pen lines that draw themselves on, dot-matrix bars, layered stripes and paper cards, huge heavy grotesque headlines.",
+  "image_style": "Flat 70s screen-print illustration on warm off-white paper with visible grain: halftone dot shading, two to three flat inks (navy-black, light blue #00AEEF, navy #0138A1), slight mis-registration, no gradients, no photo realism, generous empty paper.",
+  "camera": "Flat, frontal 2D stage like a printed board: no camera moves; things move on the paper instead (slide in, drop, deal, hop). Occasional gentle push on a key moment.",
+  "lighting": "No lighting: printed ink on paper. Shade comes only from halftone dot size, with an implied light from the upper left.",
+  "motion": "Character animation, not tweens: drawings held on threes (each held 3 of 24 frames), walks on twos, squash and stretch on hops and landings, overshoot on every card that lands, smears and faint in-between copies on fast moves, springy dots that settle. Things are dealt, spiked, stamped, torn off and typed in, like objects on a desk.",
+  "consistency": "Same paper, grain, inks and type in every scene. Light blue means heard / acting / talking; navy means kept or decided, and only people make something navy. Mojo is always the logo's light-blue pants (the hexagon flair is off); teammates are pants in their own colours, never blue; someone away hangs faded on a hanger.",
+  "negative_guidance": "Photographs, gradients, glossy 3D, drop shadows that look digital, neon or glow, extra colours outside the palette, rounded SaaS UI chrome, stock icons, text inside generated images, the pants in any colour but light blue for Mojo.",
+  "video": {
+    "typography": "Bricolage Grotesque only (./reference/BricolageGrotesque-latin.woff2): headlines 800 weight, very large and tight (e.g. 'ONE THING, IAN.' with the name in light blue; 'M[pants]JO MEET' where the pants are the O); labels 500-700 small caps with tracking; body 400-500.",
+    "palette": "paper #EFEDE7, cream #E3E0D8, ink #0B1B45, soft ink #4E5B78, pale #D3CFC5, light blue #00AEEF, deep blue #006BA8, navy #0138A1, sky #8CC3EC, mist #D6E6F2; stripes #C9D3E8 #4F7FC0 #0B5FB0 #0138A1 #0B1B45 #7FD6F7 #00AEEF. Full-bleed navy (#0138A1) boards are allowed for big moments, with cream type.",
+    "transitions": "Paper moves: a card slides or flies in and lands with overshoot, a sheet tears off, a stamp thumps down, stripes wipe across, the orb swells and the next board prints in. No crossfades.",
+    "text_animation": "Headlines drop in word by word with a small overshoot; felt-pen underlines and circles draw themselves on (two passes, a hair apart); numbers tick up on dot-matrix bars; Mojo 'types it in' character by character with a cursor.",
+    "pacing": "Calm and deliberate with snappy landings: one idea per board, a beat of stillness after each landing, about 4-8 seconds a board.",
+    "voice_tone": "Warm, plain-spoken teammate; short sentences, first names, a little dry wit.",
+    "sound": "Paper and desk foley: soft whooshes for flying cards, a thump for stamps, a click for spikes, a pop when the pants hop, typing for text; quiet under the voice.",
+    "reference": "./reference/orb-and-pants-kit.js is Mojo's own drawing code (paper grain, halftone orb with its moods, felt-pen scribble + ink, dot bars, the pants rig with idle / talk / listen / think / hop / walk / away). Reuse those functions in canvas elements of the composition, driven by the HyperFrames timeline (seek-safe: compute each frame from the time, no free-running requestAnimationFrame), instead of approximating the look."
+  },
+  "reference_files": [
+    "mojo-print/orb-and-pants-kit.js",
+    "mojo-print/BricolageGrotesque-latin.woff2"
+  ],
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 45
+  }
+}

@@ -6,11 +6,19 @@
   "camera": "Subtle handheld or tripod camera, observational rather than theatrical framing.",
   "lighting": "Available daylight and existing environmental practical lights.",
   "motion": "Spontaneous natural activities and accurate environmental movement.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same location, season, light and subjects across all scenes.",
+  "negative_guidance": "Staged or studio look, artificial colors, CGI feel, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 60
+  },
+  "video": {
+    "typography": "Understated sans-serif location and fact labels",
+    "palette": "Natural earthy tones, true-to-life color",
+    "transitions": "Slow dissolves and gentle Ken Burns moves",
+    "text_animation": "Quiet fade-ins for location and fact cards",
+    "pacing": "Patient and observational",
+    "voice_tone": "Calm, curious documentary narrator",
+    "sound": "Very subtle whooshes; mostly let narration lead"
   }
 }

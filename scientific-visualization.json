@@ -6,11 +6,19 @@
   "camera": "Stable educational perspective with controlled zooms and rotations.",
   "lighting": "Even technical lighting that separates surfaces and structures.",
   "motion": "Slow precise movement highlighting correct mechanisms or biological processes.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same model, labels style and color coding across all scenes.",
+  "negative_guidance": "Inaccurate anatomy or mechanics, decorative clutter, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 60
+  },
+  "video": {
+    "typography": "Clean technical sans-serif with clear labels",
+    "palette": "Neutral background with consistent color-coding per part",
+    "transitions": "Cutaways, smooth zooms and rotations",
+    "text_animation": "Labels with leader lines; step-by-step build-ups",
+    "pacing": "Calm and methodical",
+    "voice_tone": "Clear, precise teacher",
+    "sound": "Soft ticks and clicks on labels, gentle transition whooshes"
   }
 }

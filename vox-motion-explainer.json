@@ -6,11 +6,19 @@
   "camera": "Controlled 2D zooms, pans, push-ins and infographic transitions.",
   "lighting": "Flat editorial visual treatment with restrained textures and shadows.",
   "motion": "Purposeful reveals and easing synced to explanation; prioritize legibility.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same illustration and collage style, palette and graphic language in every scene.",
+  "negative_guidance": "Busy clutter, inconsistent illustration styles, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 60
+  },
+  "video": {
+    "typography": "Bold heavy grotesque headlines with a mono or condensed label face",
+    "palette": "Off-white paper or near-black base with one or two punchy accents",
+    "transitions": "Paper wipes, map zooms, graphic slides, highlighter sweeps",
+    "text_animation": "Kinetic type, highlighter marks, animated maps, charts and callouts",
+    "pacing": "Brisk and punchy, one clear point per beat",
+    "voice_tone": "Curious, conversational journalist",
+    "sound": "Whooshes on transitions, pops and clicks on callouts, soft impacts on reveals"
   }
 }

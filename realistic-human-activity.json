@@ -1,16 +1,25 @@
 {
   "id": "realistic-human-activity",
-  "name": "Realistic Human Activity",
-  "category": "Human Activities",
-  "visual_style": "Authentic live-action footage of real people, natural appearance, anatomically correct posture and realistic clothing behavior.",
-  "camera": "Stable medium-wide composition keeping the full action visible; use close-ups only for relevant details.",
-  "lighting": "Natural practical lighting and believable skin tones.",
-  "motion": "Biomechanically plausible complete actions, correct balance, joint positions and object interactions.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "name": "Real People: Activity & Corporate",
+  "category": "People & Business",
+  "visual_style": "Authentic live-action look of real people, natural appearance and correct anatomy. Covers everyday activities and how-tos, and corporate / business life: professionals at work at desks and screens, walking through bright modern offices, meetings and workshops, presenting a product, shaking hands and talking naturally.",
+  "image_style": "Photorealistic candid photography of real people in real places (homes, gyms, modern glass offices, meeting rooms, city streets); natural daylight, true skin tones, believable clothing (business attire for corporate scenes); relaxed, unposed body language, not stock-photo stiff; screens and documents turned away or blank.",
+  "camera": "Stable medium-wide shots that keep the action readable, close-ups only for key details. Corporate: slow tracking alongside someone walking, over-the-shoulder at a desk, a gentle push-in on a speaker in a meeting, wide establishing shots of the office.",
+  "lighting": "Natural practical light and believable skin tones; corporate scenes bright and clean, daylight through glass, neutral whites.",
+  "motion": "Biomechanically plausible, complete actions with correct balance and object interactions. Corporate: confident walking, gesturing while presenting, typing, nodding, handshakes, people turning to each other.",
+  "consistency": "Same people, outfits, body types, location and colour grade across all scenes; for a company, the same office look and brand colours throughout.",
+  "negative_guidance": "Wrong anatomy, extra fingers or limbs, impossible poses, stiff stock-photo posing, forced smiles, cluttered offices, readable screens or fake logos, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 45
+  },
+  "video": {
+    "typography": "How-tos: clean bold sans-serif labels and step numbers. Corporate: a clean modern sans (the brand's font when a website was captured), name-and-title lower-thirds, a small logo bug in a corner.",
+    "palette": "How-tos: natural tones with one accent colour for callouts. Corporate: the brand's colours (from the captured site when there is one) over neutral whites and greys.",
+    "transitions": "How-tos: clean cuts and short slides between steps. Corporate: smooth push and slide transitions, a brand-colour wipe between chapters, an opening and closing logo animation.",
+    "text_animation": "How-tos: step labels pop in, arrows and circles highlight the move. Corporate: lower-thirds slide in, key numbers count up, short headline statements with captions.",
+    "pacing": "Steady: one idea per scene; corporate shots about 3-5 seconds with a confident rhythm.",
+    "voice_tone": "How-tos: a friendly, encouraging coach. Corporate: a confident, warm, professional narrator.",
+    "sound": "Soft clicks and pops on labels, light whooshes between scenes; corporate: a subtle modern music bed under the voice when background music is on."
   }
 }

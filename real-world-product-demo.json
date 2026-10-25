@@ -6,11 +6,19 @@
   "camera": "Stable instructional close-ups and over-the-shoulder views; keep operational steps visible.",
   "lighting": "Clean realistic interior or daylight lighting.",
   "motion": "Show clear sequential hand-object interactions, genuine contact and correct physical operation.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same product, same hands and same everyday setting across all steps.",
+  "negative_guidance": "Distorted hands, impossible grips, product changing shape, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 45
+  },
+  "video": {
+    "typography": "Clear rounded sans-serif step titles and numbered labels",
+    "palette": "Bright, clean real-world tones with a friendly accent",
+    "transitions": "Simple cuts and slides; zoom into the detail being explained",
+    "text_animation": "Numbered steps and arrows point to buttons and parts",
+    "pacing": "Clear step-by-step, enough time to follow each action",
+    "voice_tone": "Helpful, plain-spoken guide",
+    "sound": "Clicks on taps and button presses, soft pops on labels"
   }
 }

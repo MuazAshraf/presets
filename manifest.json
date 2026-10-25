@@ -1,14 +1,20 @@
 [
   {
+    "id": "mojo-print",
+    "name": "Mojo Print (Orb & Pants)",
+    "category": "Brand",
+    "file": "mojo-print.json"
+  },
+  {
     "id": "cinematic-photorealism",
-    "name": "Cinematic Photorealism",
-    "category": "Film & Storytelling",
+    "name": "Cinematic & Fashion / Lifestyle",
+    "category": "Film, Fashion & Lifestyle",
     "file": "cinematic-photorealism.json"
   },
   {
     "id": "realistic-human-activity",
-    "name": "Realistic Human Activity",
-    "category": "Human Activities",
+    "name": "Real People: Activity & Corporate",
+    "category": "People & Business",
     "file": "realistic-human-activity.json"
   },
   {
@@ -22,6 +28,12 @@
     "name": "Real-World Product Demo",
     "category": "Product & Advertising",
     "file": "real-world-product-demo.json"
+  },
+  {
+    "id": "website-saas-demo",
+    "name": "Website / SaaS Demo",
+    "category": "Product & Advertising",
+    "file": "website-saas-demo.json"
   },
   {
     "id": "stylized-3d-cartoon",

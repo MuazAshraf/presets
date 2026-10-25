@@ -6,11 +6,19 @@
   "camera": "Fluid animated-film camera with clear staging and readable silhouettes.",
   "lighting": "Soft global illumination, warm bounce light and playful color accents.",
   "motion": "Expressive animation with anticipation, squash-and-stretch, follow-through and stable character proportions.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "consistency": "Same character designs, proportions and colorful art direction in every scene.",
+  "negative_guidance": "Off-model characters, uncanny realism, muddy colors, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 45
+  },
+  "video": {
+    "typography": "Chunky rounded display type with playful weights",
+    "palette": "Saturated, cheerful palette with warm highlights",
+    "transitions": "Bouncy wipes, iris and pop transitions",
+    "text_animation": "Bouncy squash-and-stretch text entrances",
+    "pacing": "Lively and upbeat with comic timing",
+    "voice_tone": "Warm, playful storyteller",
+    "sound": "Pops, boings, sparkles and cartoon whooshes"
   }
 }

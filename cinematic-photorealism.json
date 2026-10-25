@@ -1,16 +1,25 @@
 {
   "id": "cinematic-photorealism",
-  "name": "Cinematic Photorealism",
-  "category": "Film & Storytelling",
-  "visual_style": "Photorealistic live-action cinema with natural skin textures, realistic environments, cinematic depth, subtle film grain and restrained color grading.",
-  "camera": "Smooth deliberate dolly or tracking shot with natural depth of field.",
-  "lighting": "Motivated natural lighting with plausible shadows and highlights.",
-  "motion": "Physically believable movement, natural timing, realistic fabric and hair dynamics.",
-  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
-  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "name": "Cinematic & Fashion / Lifestyle",
+  "category": "Film, Fashion & Lifestyle",
+  "visual_style": "Photorealistic live-action cinema with natural skin texture, real environments, cinematic depth, subtle film grain and restrained colour grading. Covers film storytelling and fashion / lifestyle: people walking, posing, showing outfits and using products in real places (city streets, interiors, golden-hour exteriors), editorial and magazine-like.",
+  "image_style": "Editorial fashion and lifestyle photography: shallow depth of field, real locations, golden hour or soft window light, whole outfits visible in wide shots and fabric / accessory details in close-ups, confident natural poses, a consistent model and styling.",
+  "camera": "Smooth deliberate dolly or tracking shots with natural depth of field. Fashion: a model walking toward the camera on a tracking shot, low angles, a slow orbit around the outfit, detail close-ups of fabric, shoes and accessories.",
+  "lighting": "Motivated natural light with plausible shadows; fashion: golden hour, soft window light, a rim of light on hair and fabric.",
+  "motion": "Physically believable movement with realistic fabric and hair. Fashion: confident strides, poses held for a beat, fabric and hair moving, slow motion on turns and hair flips.",
+  "consistency": "Same characters, wardrobe, location and colour grade in every scene image so the scenes cut together like one film or one campaign.",
+  "negative_guidance": "Plastic or waxy skin, over-saturated HDR look, distorted hands or faces, uncanny poses, visible brand logos on clothes, text, captions, logos or watermarks inside the image (on-screen text is added in HyperFrames).",
   "default_settings": {
     "aspect_ratio": "16:9",
-    "duration_seconds": 8,
-    "generation_mode": "image-to-video"
+    "duration_seconds": 45
+  },
+  "video": {
+    "typography": "Film: elegant serif titles with generous letter-spacing and minimal lower-thirds. Fashion: editorial type, a large serif or a tall condensed sans in magazine layouts, look and product names as small-caps credits.",
+    "palette": "Film: a restrained teal-and-amber grade with deep blacks. Fashion: warm neutrals, cream and black, or the brand's palette.",
+    "transitions": "Film: slow cross-dissolves, dips to black, match cuts. Fashion: rhythmic hard cuts, flash frames, split-screen looks side by side, whip pans.",
+    "text_animation": "Film: gentle fade-and-rise title reveals, sparse text. Fashion: kinetic editorial type that slides and masks in, product and price tags that pop beside the look.",
+    "pacing": "Film: slow and atmospheric, let shots breathe. Fashion: rhythmic and music-led; with background music, run `hyperframes beats` and land the cuts and reveals on the beats.",
+    "voice_tone": "Film: a calm, cinematic storyteller. Fashion: confident and intimate, few words (short lines between looks).",
+    "sound": "Film: cinematic whooshes, low risers, soft impacts on key beats. Fashion: music-led, camera shutter clicks, fabric swishes, a soft whoosh on whip pans."
   }
 }
