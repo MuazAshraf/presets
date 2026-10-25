@@ -1,0 +1,16 @@
+{
+  "id": "hyperrealistic-cgi",
+  "name": "Hyperrealistic CGI",
+  "category": "CGI & Technical",
+  "visual_style": "High-end physically based CGI with precise geometry, photorealistic materials, reflections and detailed surfaces.",
+  "camera": "Smooth virtual orbit, macro fly-through or accurate technical camera movement.",
+  "lighting": "Physically based studio or environment illumination.",
+  "motion": "Accurate rigid body, fluid or mechanical motion; keep all components coherent.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

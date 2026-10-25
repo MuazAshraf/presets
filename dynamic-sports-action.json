@@ -1,0 +1,16 @@
+{
+  "id": "dynamic-sports-action",
+  "name": "Dynamic Sports / Action",
+  "category": "Fitness & Sports",
+  "visual_style": "High-quality live-action sports cinematography showing athletic effort, natural sweat and energetic compositions.",
+  "camera": "Dynamic lateral tracking and purposeful high-frame-rate slow motion where appropriate.",
+  "lighting": "Contrasty yet plausible sports or outdoor lighting.",
+  "motion": "Biomechanically accurate athletic action, clear momentum, real weight transfer and impacts.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

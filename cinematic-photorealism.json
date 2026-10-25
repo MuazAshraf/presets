@@ -1,0 +1,16 @@
+{
+  "id": "cinematic-photorealism",
+  "name": "Cinematic Photorealism",
+  "category": "Film & Storytelling",
+  "visual_style": "Photorealistic live-action cinema with natural skin textures, realistic environments, cinematic depth, subtle film grain and restrained color grading.",
+  "camera": "Smooth deliberate dolly or tracking shot with natural depth of field.",
+  "lighting": "Motivated natural lighting with plausible shadows and highlights.",
+  "motion": "Physically believable movement, natural timing, realistic fabric and hair dynamics.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

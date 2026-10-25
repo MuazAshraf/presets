@@ -1,0 +1,16 @@
+{
+  "id": "stylized-3d-cartoon",
+  "name": "Stylized 3D Cartoon",
+  "category": "Animation",
+  "visual_style": "High-quality original stylized 3D animated film, appealing rounded designs, expressive characters and cohesive colorful art direction.",
+  "camera": "Fluid animated-film camera with clear staging and readable silhouettes.",
+  "lighting": "Soft global illumination, warm bounce light and playful color accents.",
+  "motion": "Expressive animation with anticipation, squash-and-stretch, follow-through and stable character proportions.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

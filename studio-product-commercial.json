@@ -1,0 +1,16 @@
+{
+  "id": "studio-product-commercial",
+  "name": "Studio Product Commercial",
+  "category": "Product & Advertising",
+  "visual_style": "Premium product commercial with faithful shape, materials, finish, branding and realistic fine surface details.",
+  "camera": "Precise controlled orbit, macro detail or smooth studio dolly that reveals product features.",
+  "lighting": "Softbox reflections, refined rim lights and controlled studio contrast.",
+  "motion": "Slow precise movement; preserve product dimensions, parts and details.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

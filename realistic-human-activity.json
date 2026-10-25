@@ -1,0 +1,16 @@
+{
+  "id": "realistic-human-activity",
+  "name": "Realistic Human Activity",
+  "category": "Human Activities",
+  "visual_style": "Authentic live-action footage of real people, natural appearance, anatomically correct posture and realistic clothing behavior.",
+  "camera": "Stable medium-wide composition keeping the full action visible; use close-ups only for relevant details.",
+  "lighting": "Natural practical lighting and believable skin tones.",
+  "motion": "Biomechanically plausible complete actions, correct balance, joint positions and object interactions.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

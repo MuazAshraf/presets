@@ -1,0 +1,16 @@
+{
+  "id": "real-world-product-demo",
+  "name": "Real-World Product Demo",
+  "category": "Product & Advertising",
+  "visual_style": "Photorealistic lifestyle product demonstration, accurate hands and authentic everyday environments.",
+  "camera": "Stable instructional close-ups and over-the-shoulder views; keep operational steps visible.",
+  "lighting": "Clean realistic interior or daylight lighting.",
+  "motion": "Show clear sequential hand-object interactions, genuine contact and correct physical operation.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

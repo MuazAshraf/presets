@@ -1,0 +1,16 @@
+{
+  "id": "ugc-social-realism",
+  "name": "UGC / Social Realism",
+  "category": "Social Content",
+  "visual_style": "Authentic smartphone-style footage with realistic skin, informal home or outdoor setting and modest imperfections.",
+  "camera": "Handheld phone perspective at eye level with subtle natural shake.",
+  "lighting": "Window light or believable everyday practical lighting.",
+  "motion": "Casual real-time gestures and natural conversation-like movement.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "scientific-visualization",
+  "name": "Scientific / Technical Visualization",
+  "category": "Science & Education",
+  "visual_style": "Instructionally clear 3D visualization with accurate anatomy or engineering structures and reliable spatial relationships.",
+  "camera": "Stable educational perspective with controlled zooms and rotations.",
+  "lighting": "Even technical lighting that separates surfaces and structures.",
+  "motion": "Slow precise movement highlighting correct mechanisms or biological processes.",
+  "consistency": "Maintain subject identity, geometry, wardrobe, environment and all distinctive details across frames. Avoid morphing, duplicate limbs, unwanted object changes and camera jumps.",
+  "negative_guidance": "Avoid flicker, temporal inconsistency, deformations, unnatural body motion, random text, unintended logos and watermarks.",
+  "default_settings": {
+    "aspect_ratio": "16:9",
+    "duration_seconds": 8,
+    "generation_mode": "image-to-video"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cinematic-photorealism",
+    "name": "Cinematic Photorealism",
+    "category": "Film & Storytelling",
+    "file": "cinematic-photorealism.json"
+  },
+  {
+    "id": "realistic-human-activity",
+    "name": "Realistic Human Activity",
+    "category": "Human Activities",
+    "file": "realistic-human-activity.json"
+  },
+  {
+    "id": "studio-product-commercial",
+    "name": "Studio Product Commercial",
+    "category": "Product & Advertising",
+    "file": "studio-product-commercial.json"
+  },
+  {
+    "id": "real-world-product-demo",
+    "name": "Real-World Product Demo",
+    "category": "Product & Advertising",
+    "file": "real-world-product-demo.json"
+  },
+  {
+    "id": "stylized-3d-cartoon",
+    "name": "Stylized 3D Cartoon",
+    "category": "Animation",
+    "file": "stylized-3d-cartoon.json"
+  },
+  {
+    "id": "2d-cartoon-animation",
+    "name": "2D Cartoon Animation",
+    "category": "Animation",
+    "file": "2d-cartoon-animation.json"
+  },
+  {
+    "id": "natural-documentary",
+    "name": "Natural Documentary",
+    "category": "Documentary",
+    "file": "natural-documentary.json"
+  },
+  {
+    "id": "vox-motion-explainer",
+    "name": "Editorial Motion Explainer",
+    "category": "Explainer & Education",
+    "file": "vox-motion-explainer.json"
+  },
+  {
+    "id": "hyperrealistic-cgi",
+    "name": "Hyperrealistic CGI",
+    "category": "CGI & Technical",
+    "file": "hyperrealistic-cgi.json"
+  },
+  {
+    "id": "ugc-social-realism",
+    "name": "UGC / Social Realism",
+    "category": "Social Content",
+    "file": "ugc-social-realism.json"
+  },
+  {
+    "id": "dynamic-sports-action",
+    "name": "Dynamic Sports / Action",
+    "category": "Fitness & Sports",
+    "file": "dynamic-sports-action.json"
+  },
+  {
+    "id": "scientific-visualization",
+    "name": "Scientific / Technical Visualization",
+    "category": "Science & Education",
+    "file": "scientific-visualization.json"
+  }
+]
